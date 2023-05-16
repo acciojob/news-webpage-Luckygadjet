@@ -12,16 +12,16 @@
   width: 100%; /* Expand the navbar to full width */
 }
 
-.sec-div,
+.latest-news-section,
 .third-div,
-.fourth-div {
+.pictorial-news-section {
 	text-align:center;
   flex: 1; /* Distribute equal width among the div elements */
   margin: 10px; /* Add some margin between the div elements */
   box-sizing: border-box; /* Include padding and border in the element's total width */
 }
 
-.sec-div {
+.latest-news-section {
   text-align: center;
   background-color: white;
   border-radius: 10px;
@@ -36,14 +36,14 @@
 	height:250px;
 	flex:2;
 }
-.fourth-div {
+.pictorial-news-section {
   background-color: white;
   padding: 10px;
   border-radius: 10px;
 	
 }
 
-.fourth-div img {
+.pictorial-news-section img {
   display: block;
   margin-bottom: 10px;
   max-width: 100%;
